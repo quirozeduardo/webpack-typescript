@@ -1,5 +1,5 @@
 {
-  "name": "puppeteer-awsm",
+  "name": "webpack-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,16 +10,8 @@
     "prod": "npm run production",
     "production": "node_modules/.bin/webpack --no-progress --hide-modules --mode=production --config=webpack.config.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/quirozeduardo/puppeteer-awsm.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/quirozeduardo/puppeteer-awsm/issues"
-  },
-  "homepage": "https://github.com/quirozeduardo/puppeteer-awsm#readme",
   "devDependencies": {
     "@types/puppeteer": "^1.12.4",
     "ts-loader": "^5.4.5",
